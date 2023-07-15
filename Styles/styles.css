@@ -309,3 +309,15 @@ a{
 .oc-3,.fig-op-3{
     padding-left: 20px;
 }
+@media screen and (max-width:576px){
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-container{
+        width: 80%;
+    }
+    .profile-pic{
+        max-block-size: 600px;
+    }
+}
