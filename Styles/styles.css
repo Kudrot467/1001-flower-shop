@@ -310,7 +310,7 @@ a{
     padding-left: 20px;
 }
 @media screen and (max-width:576px){
-    .banner{
+    .banner,.feature{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
@@ -319,5 +319,10 @@ a{
     }
     .profile-pic{
         max-block-size: 600px;
+    }
+    .optional-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 50px;
     }
 }
